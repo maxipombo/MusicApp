@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">My Music App</string>
+
+    <string name="radio_category">Radio</string>
+    <string name="offline_category">Offline music</string>
+    <string name="online_category">Online music</string>
+    <string name="favorites_category">Favorites</string>
+    <string name="recent_category">Recently listened</string>
+
+    <string name="search">Search</string>
+    <string name="search_online">Search online</string>
+    <string name="search_genre">Pick genre</string>
+    <!--<string name="folders">Folders</string>-->
+    <string name="albums">Albums</string>
+    <string name="all_songs">All songs</string>
+
+    <string name="rock">Rock</string>
+    <string name="pop">Pop</string>
+    <string name="dance">Dance</string>
+    <string name="rap_hiphop">Rap and Hip-Hop</string>
+    <string name="jazz_blues">Jazz and Blues</string>
+    <string name="instrumental">Instrumental</string>
+    <string name="metal">Metal</string>
+
+    <string name="genre_rock">Genre: Rock</string>
+    <string name="genre_pop">Genre: Pop</string>
+    <string name="genre_dance">Genre: Dance</string>
+    <string name="genre_rap_hiphop">Genre: Rap and Hip-Hop</string>
+    <string name="genre_jazz_blues">Genre: Jazz and Blues</string>
+    <string name="genre_instrumental">Genre: Instrumental</string>
+    <string name="genre_metal">Genre: Metal</string>
+
+    //http://www.babel.com.uy
+    <string name="radio1">Babel 97.1 FM</string>
+    http://www.radioclasica.com.uy
+    <string name="radio2">Clásica 650 AM</string>
+    http://www.emisoradelsur.com.uy
+    <string name="radio3">Emisora del sur 1290 AM - 94.7 FM</string>
+    http://www.rnu.com.uy
+    <string name="radio4">RNU</string>
+
+    <string name="display_message">No music to display...</string>
+    <string name="favorite_music">You don\'t have favorite songs...</string>
+    <string name="search_message">Search field will be available soon...</string>
+    <string name="albums_message">No albums found on your phone...</string>
+    <string name="songs_message">No songs found on your phone...</string>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mymusicapp.OfflineActivity">
+
+    <ImageView
+        style="@style/BackgroundImage"
+        android:src="@drawable/background_people" />
+
+    <LinearLayout style="@style/LinearLayoutWithImage">
+
+        <TextView
+            android:id="@+id/offline_search"
+            style="@style/secondaryActivity1"
+            android:text="@string/search" />
+
+        <TextView
+            android:id="@+id/offline_albums"
+            style="@style/secondaryActivity2"
+            android:text="@string/albums" />
+
+        <TextView
+            android:id="@+id/offline_songs"
+            style="@style/secondaryActivity3"
+            android:text="@string/all_songs" />
+
+    </LinearLayout>
+
+</RelativeLayout>

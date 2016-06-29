@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollViewStyle"
+    tools:context="com.example.android.mymusicapp.RadioActivity">
+
+    <LinearLayout style="@style/LinearLayoutWithBackgroundColor">
+
+        <TextView
+            android:id="@+id/rock"
+            style="@style/ListStyle"
+            android:text="@string/rock" />
+
+        <TextView
+            android:id="@+id/pop"
+            style="@style/ListStyle"
+            android:text="@string/pop" />
+
+        <TextView
+            android:id="@+id/rap"
+            style="@style/ListStyle"
+            android:text="@string/rap_hiphop" />
+
+        <TextView
+            android:id="@+id/dance"
+            style="@style/ListStyle"
+            android:text="@string/dance" />
+
+        <TextView
+            android:id="@+id/jazz"
+            style="@style/ListStyle"
+            android:text="@string/jazz_blues" />
+
+        <TextView
+            android:id="@+id/instrumental"
+            style="@style/ListStyle"
+            android:text="@string/instrumental" />
+
+        <TextView
+            android:id="@+id/metal"
+            style="@style/ListStyle"
+            android:text="@string/metal" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mainActivityTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+    </style>
+
+    <style name="mainActivityTextView_Offline" parent="@style/mainActivityTextView">
+        <item name="android:background">@color/colorLightPrimaryColor</item>
+    </style>
+
+    <style name="mainActivityTextView_Online" parent="@style/mainActivityTextView">
+        <item name="android:background">@color/category2</item>
+    </style>
+
+    <style name="mainActivityTextView_Radio" parent="@style/mainActivityTextView">
+        <item name="android:background">@color/category3</item>
+    </style>
+
+    <style name="mainActivityTextView_Recent" parent="@style/mainActivityTextView">
+        <item name="android:background">@color/category4</item>
+    </style>
+
+    <style name="mainActivityTextView_Favorites" parent="@style/mainActivityTextView">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="LinearLayoutWithImage">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="secondaryActivityTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+    </style>
+
+    <style name="secondaryActivity1" parent="@style/secondaryActivityTextView">
+        <item name="android:background">@color/category2</item>
+    </style>
+
+    <style name="secondaryActivity2" parent="@style/secondaryActivityTextView">
+        <item name="android:background">@color/category3</item>
+    </style>
+
+    <style name="secondaryActivity3" parent="@style/secondaryActivityTextView">
+        <item name="android:background">@color/category4</item>
+    </style>
+
+    <style name="LinearLayoutWithBackgroundColor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorLightPrimaryColor</item>
+    </style>
+
+    <style name="ListStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="BackgroundImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="ScrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorLightPrimaryColor</item>
+    </style>
+
+</resources>

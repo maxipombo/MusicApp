@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.mymusicapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OfflineActivity"
+            android:label="@string/offline_category" />
+        <activity
+            android:name=".OnlineActivity"
+            android:label="@string/online_category" />
+        <activity
+            android:name=".RadioActivity"
+            android:label="@string/radio_category" />
+        <activity
+            android:name=".RecentActivity"
+            android:label="@string/recent_category" />
+        <activity
+            android:name=".FavoritesActivity"
+            android:label="@string/favorites_category" />
+        <activity
+            android:name=".OfflineSearchActivity"
+            android:label="@string/search" />
+        <activity
+            android:name=".OnlineSearchActivity"
+            android:label="@string/search_online" />
+        <activity
+            android:name=".OfflineAlbumsActivity"
+            android:label="@string/albums" />
+        <activity
+            android:name=".OfflineSongsActivity"
+            android:label="@string/all_songs" />
+        <activity
+            android:name=".OnlineGenreActivity"
+            android:label="@string/search_genre" />
+        <activity android:name=".GenreRockActivity"  android:label="@string/genre_rock"/>
+        <activity android:name=".GenrePopActivity" android:label="@string/genre_pop"/>
+        <activity android:name=".GenreRapActivity" android:label="@string/genre_rap_hiphop"/>
+        <activity android:name=".GenreDanceActivity" android:label="@string/genre_dance"/>
+        <activity android:name=".GenreJazzActivity" android:label="@string/genre_jazz_blues"/>
+        <activity android:name=".GenreMetalActivity" android:label="@string/genre_metal"/>
+        <activity android:name=".GenreInstrumentalActivity" android:label="@string/genre_instrumental"></activity>
+    </application>
+
+</manifest>
